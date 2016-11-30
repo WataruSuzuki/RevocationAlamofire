@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0775E8F1DEE657C00AE5261 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0775E8E1DEE657C00AE5261 /* AppDelegate.swift */; };
+		F0775E911DEE657C00AE5261 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0775E901DEE657C00AE5261 /* FirstViewController.swift */; };
+		F0775E931DEE657C00AE5261 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0775E921DEE657C00AE5261 /* SecondViewController.swift */; };
+		F0775E961DEE657C00AE5261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0775E941DEE657C00AE5261 /* Main.storyboard */; };
+		F0775E981DEE657C00AE5261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0775E971DEE657C00AE5261 /* Assets.xcassets */; };
+		F0775E9B1DEE657C00AE5261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0775E991DEE657C00AE5261 /* LaunchScreen.storyboard */; };
+		F0775EA61DEE657C00AE5261 /* RevocationAlamofireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0775EA51DEE657C00AE5261 /* RevocationAlamofireTests.swift */; };
+		F0775EB11DEE657C00AE5261 /* RevocationAlamofireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0775EB01DEE657C00AE5261 /* RevocationAlamofireUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0775EA21DEE657C00AE5261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0775E831DEE657C00AE5261 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0775E8A1DEE657C00AE5261;
+			remoteInfo = RevocationAlamofire;
+		};
+		F0775EAD1DEE657C00AE5261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0775E831DEE657C00AE5261 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0775E8A1DEE657C00AE5261;
+			remoteInfo = RevocationAlamofire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0775E8B1DEE657C00AE5261 /* RevocationAlamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevocationAlamofire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0775E8E1DEE657C00AE5261 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0775E901DEE657C00AE5261 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		F0775E921DEE657C00AE5261 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F0775E951DEE657C00AE5261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0775E971DEE657C00AE5261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0775E9A1DEE657C00AE5261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0775E9C1DEE657C00AE5261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0775EA11DEE657C00AE5261 /* RevocationAlamofireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevocationAlamofireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0775EA51DEE657C00AE5261 /* RevocationAlamofireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevocationAlamofireTests.swift; sourceTree = "<group>"; };
+		F0775EA71DEE657C00AE5261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0775EAC1DEE657C00AE5261 /* RevocationAlamofireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevocationAlamofireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0775EB01DEE657C00AE5261 /* RevocationAlamofireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevocationAlamofireUITests.swift; sourceTree = "<group>"; };
+		F0775EB21DEE657C00AE5261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0775E881DEE657C00AE5261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0775E9E1DEE657C00AE5261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0775EA91DEE657C00AE5261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0775E821DEE657C00AE5261 = {
+			isa = PBXGroup;
+			children = (
+				F0775E8D1DEE657C00AE5261 /* RevocationAlamofire */,
+				F0775EA41DEE657C00AE5261 /* RevocationAlamofireTests */,
+				F0775EAF1DEE657C00AE5261 /* RevocationAlamofireUITests */,
+				F0775E8C1DEE657C00AE5261 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0775E8C1DEE657C00AE5261 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0775E8B1DEE657C00AE5261 /* RevocationAlamofire.app */,
+				F0775EA11DEE657C00AE5261 /* RevocationAlamofireTests.xctest */,
+				F0775EAC1DEE657C00AE5261 /* RevocationAlamofireUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0775E8D1DEE657C00AE5261 /* RevocationAlamofire */ = {
+			isa = PBXGroup;
+			children = (
+				F0775E8E1DEE657C00AE5261 /* AppDelegate.swift */,
+				F0775E901DEE657C00AE5261 /* FirstViewController.swift */,
+				F0775E921DEE657C00AE5261 /* SecondViewController.swift */,
+				F0775E941DEE657C00AE5261 /* Main.storyboard */,
+				F0775E971DEE657C00AE5261 /* Assets.xcassets */,
+				F0775E991DEE657C00AE5261 /* LaunchScreen.storyboard */,
+				F0775E9C1DEE657C00AE5261 /* Info.plist */,
+			);
+			path = RevocationAlamofire;
+			sourceTree = "<group>";
+		};
+		F0775EA41DEE657C00AE5261 /* RevocationAlamofireTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0775EA51DEE657C00AE5261 /* RevocationAlamofireTests.swift */,
+				F0775EA71DEE657C00AE5261 /* Info.plist */,
+			);
+			path = RevocationAlamofireTests;
+			sourceTree = "<group>";
+		};
+		F0775EAF1DEE657C00AE5261 /* RevocationAlamofireUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0775EB01DEE657C00AE5261 /* RevocationAlamofireUITests.swift */,
+				F0775EB21DEE657C00AE5261 /* Info.plist */,
+			);
+			path = RevocationAlamofireUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0775E8A1DEE657C00AE5261 /* RevocationAlamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0775EB51DEE657C00AE5261 /* Build configuration list for PBXNativeTarget "RevocationAlamofire" */;
+			buildPhases = (
+				F0775E871DEE657C00AE5261 /* Sources */,
+				F0775E881DEE657C00AE5261 /* Frameworks */,
+				F0775E891DEE657C00AE5261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RevocationAlamofire;
+			productName = RevocationAlamofire;
+			productReference = F0775E8B1DEE657C00AE5261 /* RevocationAlamofire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0775EA01DEE657C00AE5261 /* RevocationAlamofireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0775EB81DEE657C00AE5261 /* Build configuration list for PBXNativeTarget "RevocationAlamofireTests" */;
+			buildPhases = (
+				F0775E9D1DEE657C00AE5261 /* Sources */,
+				F0775E9E1DEE657C00AE5261 /* Frameworks */,
+				F0775E9F1DEE657C00AE5261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0775EA31DEE657C00AE5261 /* PBXTargetDependency */,
+			);
+			name = RevocationAlamofireTests;
+			productName = RevocationAlamofireTests;
+			productReference = F0775EA11DEE657C00AE5261 /* RevocationAlamofireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0775EAB1DEE657C00AE5261 /* RevocationAlamofireUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0775EBB1DEE657C00AE5261 /* Build configuration list for PBXNativeTarget "RevocationAlamofireUITests" */;
+			buildPhases = (
+				F0775EA81DEE657C00AE5261 /* Sources */,
+				F0775EA91DEE657C00AE5261 /* Frameworks */,
+				F0775EAA1DEE657C00AE5261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0775EAE1DEE657C00AE5261 /* PBXTargetDependency */,
+			);
+			name = RevocationAlamofireUITests;
+			productName = RevocationAlamofireUITests;
+			productReference = F0775EAC1DEE657C00AE5261 /* RevocationAlamofireUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0775E831DEE657C00AE5261 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = WataruSuzuki;
+				TargetAttributes = {
+					F0775E8A1DEE657C00AE5261 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = F35G39V2UB;
+						ProvisioningStyle = Automatic;
+					};
+					F0775EA01DEE657C00AE5261 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = F35G39V2UB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F0775E8A1DEE657C00AE5261;
+					};
+					F0775EAB1DEE657C00AE5261 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = F35G39V2UB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F0775E8A1DEE657C00AE5261;
+					};
+				};
+			};
+			buildConfigurationList = F0775E861DEE657C00AE5261 /* Build configuration list for PBXProject "RevocationAlamofire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0775E821DEE657C00AE5261;
+			productRefGroup = F0775E8C1DEE657C00AE5261 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0775E8A1DEE657C00AE5261 /* RevocationAlamofire */,
+				F0775EA01DEE657C00AE5261 /* RevocationAlamofireTests */,
+				F0775EAB1DEE657C00AE5261 /* RevocationAlamofireUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0775E891DEE657C00AE5261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0775E9B1DEE657C00AE5261 /* LaunchScreen.storyboard in Resources */,
+				F0775E981DEE657C00AE5261 /* Assets.xcassets in Resources */,
+				F0775E961DEE657C00AE5261 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0775E9F1DEE657C00AE5261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0775EAA1DEE657C00AE5261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0775E871DEE657C00AE5261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0775E931DEE657C00AE5261 /* SecondViewController.swift in Sources */,
+				F0775E8F1DEE657C00AE5261 /* AppDelegate.swift in Sources */,
+				F0775E911DEE657C00AE5261 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0775E9D1DEE657C00AE5261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0775EA61DEE657C00AE5261 /* RevocationAlamofireTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0775EA81DEE657C00AE5261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0775EB11DEE657C00AE5261 /* RevocationAlamofireUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0775EA31DEE657C00AE5261 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0775E8A1DEE657C00AE5261 /* RevocationAlamofire */;
+			targetProxy = F0775EA21DEE657C00AE5261 /* PBXContainerItemProxy */;
+		};
+		F0775EAE1DEE657C00AE5261 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0775E8A1DEE657C00AE5261 /* RevocationAlamofire */;
+			targetProxy = F0775EAD1DEE657C00AE5261 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0775E941DEE657C00AE5261 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0775E951DEE657C00AE5261 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0775E991DEE657C00AE5261 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0775E9A1DEE657C00AE5261 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0775EB31DEE657C00AE5261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0775EB41DEE657C00AE5261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0775EB61DEE657C00AE5261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F35G39V2UB;
+				INFOPLIST_FILE = RevocationAlamofire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.cert-evaluate.RevocationAlamofire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F0775EB71DEE657C00AE5261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F35G39V2UB;
+				INFOPLIST_FILE = RevocationAlamofire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.cert-evaluate.RevocationAlamofire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F0775EB91DEE657C00AE5261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F35G39V2UB;
+				INFOPLIST_FILE = RevocationAlamofireTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.cert-evaluate.RevocationAlamofireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RevocationAlamofire.app/RevocationAlamofire";
+			};
+			name = Debug;
+		};
+		F0775EBA1DEE657C00AE5261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F35G39V2UB;
+				INFOPLIST_FILE = RevocationAlamofireTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.cert-evaluate.RevocationAlamofireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RevocationAlamofire.app/RevocationAlamofire";
+			};
+			name = Release;
+		};
+		F0775EBC1DEE657C00AE5261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = F35G39V2UB;
+				INFOPLIST_FILE = RevocationAlamofireUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.cert-evaluate.RevocationAlamofireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RevocationAlamofire;
+			};
+			name = Debug;
+		};
+		F0775EBD1DEE657C00AE5261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = F35G39V2UB;
+				INFOPLIST_FILE = RevocationAlamofireUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.cert-evaluate.RevocationAlamofireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RevocationAlamofire;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0775E861DEE657C00AE5261 /* Build configuration list for PBXProject "RevocationAlamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0775EB31DEE657C00AE5261 /* Debug */,
+				F0775EB41DEE657C00AE5261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0775EB51DEE657C00AE5261 /* Build configuration list for PBXNativeTarget "RevocationAlamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0775EB61DEE657C00AE5261 /* Debug */,
+				F0775EB71DEE657C00AE5261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0775EB81DEE657C00AE5261 /* Build configuration list for PBXNativeTarget "RevocationAlamofireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0775EB91DEE657C00AE5261 /* Debug */,
+				F0775EBA1DEE657C00AE5261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0775EBB1DEE657C00AE5261 /* Build configuration list for PBXNativeTarget "RevocationAlamofireUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0775EBC1DEE657C00AE5261 /* Debug */,
+				F0775EBD1DEE657C00AE5261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0775E831DEE657C00AE5261 /* Project object */;
+}
